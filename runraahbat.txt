@@ -1,0 +1,4 @@
+@echo off
+cd /d "C:\path\to\your\project"   REM <-- change this to your folder path
+streamlit run app.py --browser.gatherUsageStats=false
+pause
